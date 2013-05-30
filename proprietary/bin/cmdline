@@ -171,10 +171,10 @@ clear
 if [ -e /sys/android_touch/sweep2wake ]; then
 echo "Sweep2Wake selection:"
 echo 
-echo "1) Disable"
+echo "0) or 1) Disable"
 echo "2) Enable"
 echo "3) Enable w/o button lights"
-echo "Choose number selection[99 = abort][0 = default:Disabled]:"
+echo "Choose number selection[99 = abort]:"
 read s2w
 if [ "$s2w" -gt "3" ];then
 echo "Invalid selection: Aborting script"
@@ -183,7 +183,7 @@ fi
 	case "$s2w" in
                 "0")
                         s2w=0
-			s2w2=disabled
+			s2w2=off
                         ;;
                 "1")
                         s2w=0
