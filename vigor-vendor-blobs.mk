@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/abootimg:system/bin/abootimg \
   vendor/htc/vigor/proprietary/bin/cmdline:system/bin/cmdline \
   vendor/htc/vigor/proprietary/bin/menu:system/bin/menu \
+  vendor/htc/vigor/proprietary/bin/initd:system/bin/initd \
   vendor/htc/vigor/proprietary/bin/unzip:system/bin/unzip \
   vendor/htc/vigor/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
   vendor/htc/vigor/proprietary/bin/charging:system/bin/charging \
