@@ -272,10 +272,12 @@ read menu
 					if [ -e /sys/devices/system/cpu/cpu0/cpufreq/screen_off_max_freq ]; then
 					echo 'echo '$maxscroff' > /sys/devices/system/cpu/cpu3/cpufreq/screen_off_max_freq' >> /system/etc/init.d/99lunar
 					fi
+					fi
 					if [ -e /sys/android_touch/sweep2wake ]; then
 					echo 'echo '$s2w' > /sys/android_touch/sweep2wake' >> /system/etc/init.d/99lunar
 					fi
 					chmod 755 /system/etc/init.d/99lunar
+					fi
 					sh /system/bin/sysro
 					exit
 					;;
