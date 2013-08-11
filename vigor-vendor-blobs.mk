@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/vigor/proprietary/etc/thermald.conf:system/etc/thermald.conf \
   vendor/htc/vigor/proprietary/etc/vpimg:system/etc/vpimg \
-  vendor/htc/vigor/proprietary/etc/vold.fstab:system/etc/vold.fstab \
   vendor/htc/vigor/proprietary/lib/libchromatix_imx105_default_video.so:system/lib/libchromatix_imx105_default_video.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_imx105_preview.so:system/lib/libchromatix_imx105_preview.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_imx105_zsl.so:system/lib/libchromatix_imx105_zsl.so \
